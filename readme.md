@@ -4,7 +4,7 @@
 * git log --> View recent commits
 
 #### add remote
-* git remote add origin git@github.com:hedbladucf/boilerplate-react-app.git
+* git remote add origin <insertFromGit> --> adds remote origin to repo
 
 #### stage & commit
 * git add . --> add all files
