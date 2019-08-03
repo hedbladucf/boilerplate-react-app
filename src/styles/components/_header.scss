@@ -1,0 +1,19 @@
+.header {
+    background: $dark-blue;
+}
+
+.header__content {
+    align-items: center; // align vertically
+    display: flex;
+    justify-content: space-between; // distribute leftover space between expensify title and button
+    padding: $s-size 0;
+}
+
+.header__title {
+    color: white;
+    text-decoration: none; // clears default text decoration
+    
+    h1 {
+        margin: 0;
+    }
+}

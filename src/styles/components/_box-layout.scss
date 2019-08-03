@@ -1,0 +1,22 @@
+.box-layout {
+    align-items: center; // align vertically
+    background: url('/images/bg.jpg');
+    background-size: cover; // covers container with image, even when resizing browser
+    display: flex;
+    justify-content: center;
+    height: 100vh; // 100% of viewport height
+    width: 100vw; // 100% of viewport width
+}
+
+.box-layout__box {
+    background: fade-out(white, .15); // fades out by 15%
+    border-radius: 3px;
+    padding: $l-size $m-size;
+    text-align: center;
+    width: 25rem;
+}
+
+.box-layout__title {
+    margin: 0 0 $m-size 0;
+    line-height: 1; // gives all text a line heigh, ensures space between lines
+}
