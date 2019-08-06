@@ -11,6 +11,7 @@
 * git add <file> --> add file to staging area
 * git commit --> creates a new commit with files from staging area
 * git commit -m "insert message" --> commit with message
+* git commit --amend -m "new messag" --> amend commit message
 * git commit -a -m "insert message" --> adds files and commits with message
 * git commit -am --> same as above
 
